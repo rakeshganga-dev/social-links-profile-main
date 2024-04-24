@@ -1,0 +1,76 @@
+@font-face {
+    font-family: Inter-VariableFont;
+    src: url(assets/fonts/Inter-VariableFont_slnt\,wght.ttf);
+}
+*{
+    font-family: Inter-VariableFont;
+}
+
+.container{
+    background-color: #141414;
+    color: #fff;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.main-container{
+    background-color: #535353;
+    width: 300px;
+    height: 450px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 20px;
+    padding: 30px 0px;
+    box-sizing: border-box;
+    flex-shrink: 0;
+}
+.name span{
+    font-size: x-large;
+}
+.location span{
+    color: #c4f82a;
+    font-size: x-small;
+}
+img{
+    width: 100px;
+    height: 100px;
+    border-radius: 50px;
+}
+.top{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+.bio{
+    align-self: flex-end;
+    justify-self: flex-end;
+    font-size: x-small;
+    margin-top: 20px;
+}
+.top div, .bottom div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.bottom{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-size: x-small;
+}
+.button{
+    background-color: #141414;
+    width: 80%;
+    margin: 4px 0px;
+    padding: 10px 0px;
+    border-radius: 5px;
+}
+.button:hover{
+    background-color: #c4f82a;
+    color: #141414;
+}
